@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "smilecook"
+version = "0.1.0"
+description = ""
+authors = ["revego <40631055+revego@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+passlib = "^1.7.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+Flask = "^1.0.3"
+Flask-RESTful = "^0.3.7"
+httpie = "^1.0.3"
+Flask-SQLAlchemy = "^2.4.0"
+Flask-Migrate = "^2.5.2"
+psycopg2-binary = "^2.8.3"
+passlib = "^1.7.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
